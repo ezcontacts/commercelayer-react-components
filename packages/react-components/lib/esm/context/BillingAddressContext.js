@@ -1,0 +1,1 @@
+import{createContext}from"react";export const defaultBillingAddressContext={};const BillingAddressContext=createContext(defaultBillingAddressContext);export default BillingAddressContext;

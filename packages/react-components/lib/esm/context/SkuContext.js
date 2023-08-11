@@ -1,0 +1,1 @@
+import{createContext}from"react";const SkuContext=createContext({});export default SkuContext;

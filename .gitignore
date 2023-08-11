@@ -3,7 +3,7 @@
 .env
 !.env.example
 # Npm
-lib
+
 .jest
 
 # Yalc

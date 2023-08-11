@@ -1,0 +1,1 @@
+export function replace(value,replace2,replacement){return value.replace(replace2,replacement)}

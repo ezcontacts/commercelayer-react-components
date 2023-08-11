@@ -1,0 +1,1 @@
+export function getApplicationLink({orderId,accessToken,slug,domain,applicationType}){return`https://${slug}.${domain==="commercelayer.io"?"":"stg."}commercelayer.app/${applicationType.toString()}/${orderId??""}?accessToken=${accessToken}`}

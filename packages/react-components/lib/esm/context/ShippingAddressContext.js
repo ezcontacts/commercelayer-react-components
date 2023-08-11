@@ -1,0 +1,1 @@
+import{createContext}from"react";export const defaultShippingAddressContext={};const ShippingAddressContext=createContext(defaultShippingAddressContext);export default ShippingAddressContext;

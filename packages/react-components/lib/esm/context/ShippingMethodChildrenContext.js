@@ -1,0 +1,1 @@
+import{createContext}from"react";const initial={},ShippingMethodChildrenContext=createContext(initial);export default ShippingMethodChildrenContext;

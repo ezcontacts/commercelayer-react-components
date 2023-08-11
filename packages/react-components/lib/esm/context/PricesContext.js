@@ -1,0 +1,1 @@
+import{createContext}from"react";import{priceInitialState}from"../reducers/PriceReducer";const PricesContext=createContext(priceInitialState);export default PricesContext;

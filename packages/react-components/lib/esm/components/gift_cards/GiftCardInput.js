@@ -1,0 +1,1 @@
+import{jsx as _jsx}from"react/jsx-runtime";import BaseInput from"../utils/BaseInput";export function GiftCardInput(props){const{placeholder="",...p}=props;return _jsx(BaseInput,{placeholder,...p})}export default GiftCardInput;

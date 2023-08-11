@@ -1,0 +1,1 @@
+export function pick(object,keys){const result={};for(const key of keys)result[key]=object[key];return result}

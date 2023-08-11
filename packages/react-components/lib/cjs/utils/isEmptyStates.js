@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const countryLock=["IT","US"];function isEmptyStates(countryCode){return!countryLock.includes(countryCode)}exports.default=isEmptyStates;

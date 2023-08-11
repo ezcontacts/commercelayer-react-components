@@ -1,0 +1,1 @@
+export default function isDate(value){return!isNaN(Date.parse(value))}

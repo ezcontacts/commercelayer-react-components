@@ -1,0 +1,1 @@
+import{createContext}from"react";import axios from"axios";export const callExternalFunction=async({url,data})=>await axios.post(url,data);const ExternalFunctionContext=createContext({url:null,callExternalFunction});export default ExternalFunctionContext;

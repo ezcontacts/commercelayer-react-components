@@ -1,0 +1,1 @@
+const countryLock=["IT","US"];export default function isEmptyStates(countryCode){return!countryLock.includes(countryCode)}

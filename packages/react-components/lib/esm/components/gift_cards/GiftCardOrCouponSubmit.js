@@ -1,0 +1,1 @@
+import{jsx as _jsx}from"react/jsx-runtime";import Parent from"../utils/Parent";export function GiftCardOrCouponSubmit(props){const{children,label="Submit",...p}=props,parentProps={...p,label};return children?_jsx(Parent,{...parentProps,children}):_jsx("button",{type:"submit",...p,children:label})}export default GiftCardOrCouponSubmit;

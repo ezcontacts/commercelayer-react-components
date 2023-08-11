@@ -1,0 +1,1 @@
+import{createContext}from"react";const initial={},CommerceLayerContext=createContext(initial);export default CommerceLayerContext;

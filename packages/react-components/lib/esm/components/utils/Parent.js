@@ -1,0 +1,1 @@
+import{jsx as _jsx}from"react/jsx-runtime";export default function Parent({children,...p}){const Child=children;return Child!==void 0?_jsx(Child,{...p}):null}

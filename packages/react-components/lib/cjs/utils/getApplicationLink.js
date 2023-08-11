@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getApplicationLink=void 0;function getApplicationLink({orderId,accessToken,slug,domain,applicationType}){return`https://${slug}.${domain==="commercelayer.io"?"":"stg."}commercelayer.app/${applicationType.toString()}/${orderId??""}?accessToken=${accessToken}`}exports.getApplicationLink=getApplicationLink;

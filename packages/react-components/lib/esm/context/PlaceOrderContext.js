@@ -1,0 +1,1 @@
+import{createContext}from"react";import{setPlaceOrderErrors}from"../reducers/PlaceOrderReducer";export const defaultPlaceOrderContext={setPlaceOrderErrors};const PlaceOrderContext=createContext(defaultPlaceOrderContext);export default PlaceOrderContext;

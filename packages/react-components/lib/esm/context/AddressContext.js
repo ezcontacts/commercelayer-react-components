@@ -1,0 +1,1 @@
+import{createContext}from"react";import{setAddress}from"../reducers/AddressReducer";export const defaultAddressContext={setCloneAddress:()=>{},setAddress,setAddressErrors:()=>{}};const AddressesContext=createContext(defaultAddressContext);export default AddressesContext;

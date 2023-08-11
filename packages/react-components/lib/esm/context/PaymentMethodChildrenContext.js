@@ -1,0 +1,1 @@
+import{createContext}from"react";const initial={},PaymentMethodChildrenContext=createContext(initial);export default PaymentMethodChildrenContext;

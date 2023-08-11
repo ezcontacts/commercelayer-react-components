@@ -1,0 +1,1 @@
+import{jsx as _jsx}from"react/jsx-runtime";import BaseSelect from"../utils/BaseSelect";import currencyOptions from"../../config/currency";export function GiftCardCurrencySelector(props){return _jsx(BaseSelect,{options:currencyOptions,name:"currencyCode",...props})}export default GiftCardCurrencySelector;

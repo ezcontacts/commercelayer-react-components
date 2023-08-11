@@ -1,0 +1,1 @@
+import{createContext}from"react";export const defaultCustomerContext={};const CustomerContext=createContext(defaultCustomerContext);export default CustomerContext;

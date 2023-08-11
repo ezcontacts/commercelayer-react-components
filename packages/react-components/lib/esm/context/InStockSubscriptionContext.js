@@ -1,0 +1,1 @@
+import{createContext}from"react";const initial={},InStockSubscriptionContext=createContext(initial);export default InStockSubscriptionContext;
