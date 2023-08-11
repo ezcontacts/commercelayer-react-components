@@ -67,7 +67,7 @@ export function GiftCardOrCouponForm(props: Props): JSX.Element | null {
     e.preventDefault()
      var code:string|undefined = has(values, inputName) ? values[inputName].value as string : undefined
      const cleanCode = () => {
-      var trimmedOCode = code?.toUpperCase()
+      var trimmedOCode = code?.trim().toUpperCase()
 
       if(trimmedOCode === undefined) {
         code = trimmedOCode
