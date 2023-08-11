@@ -1,0 +1,1 @@
+export function getDomain(endpoint){const url=new URL(endpoint),[slug]=url.hostname.split(".");return{domain:url.hostname.replace(`${slug??""}.`,""),slug}}

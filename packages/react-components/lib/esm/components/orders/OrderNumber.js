@@ -1,0 +1,1 @@
+import{jsx as _jsx}from"react/jsx-runtime";import BaseField from"../utils/BaseField";export function OrderNumber(props){return _jsx(BaseField,{attribute:"number",...props})}export default OrderNumber;

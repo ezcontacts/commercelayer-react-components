@@ -1,0 +1,1 @@
+import{createContext}from"react";const initial={},LineItemContext=createContext(initial);export default LineItemContext;

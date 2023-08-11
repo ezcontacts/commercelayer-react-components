@@ -1,0 +1,1 @@
+import{createContext}from"react";const initial={},StockTransferChildrenContext=createContext(initial);export default StockTransferChildrenContext;

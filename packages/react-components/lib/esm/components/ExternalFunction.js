@@ -1,0 +1,1 @@
+import{jsx as _jsx}from"react/jsx-runtime";import ExternalFunctionContext,{callExternalFunction}from"../context/ExternalFunctionContext";export function ExternalFunction({children,url}){return _jsx(ExternalFunctionContext.Provider,{value:{url,callExternalFunction},children})}export default ExternalFunction;

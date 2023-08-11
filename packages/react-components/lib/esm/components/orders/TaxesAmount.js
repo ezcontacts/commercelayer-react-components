@@ -1,0 +1,1 @@
+import{jsx as _jsx}from"react/jsx-runtime";import BaseOrderPrice from"../utils/BaseOrderPrice";export function TaxesAmount(props){return _jsx(BaseOrderPrice,{base:"amount",type:"total_tax",...props})}export default TaxesAmount;

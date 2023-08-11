@@ -1,0 +1,1 @@
+import{getSaveBillingAddressToAddressBook,getSavePaymentSourceToCustomerWallet,getSaveShippingAddressToAddressBook}from"./localStorage";export function saveToWallet(){return getSavePaymentSourceToCustomerWallet()}export function saveBillingAddress(){return getSaveBillingAddressToAddressBook()}export function saveShippingAddress(){return getSaveShippingAddressToAddressBook()}

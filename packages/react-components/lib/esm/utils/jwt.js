@@ -1,0 +1,1 @@
+import jwtDecode from"jwt-decode";export default function jwt(accessToken){return jwtDecode(accessToken)}

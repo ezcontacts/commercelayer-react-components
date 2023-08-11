@@ -1,0 +1,1 @@
+import getOrganizationSlug from"./organization";import Sdk from"@commercelayer/sdk";export default function getSdk({endpoint,accessToken}){if(accessToken==null||endpoint==null)throw new Error("accessToken and endpoint are required parameters");const org=getOrganizationSlug(endpoint);return Sdk({accessToken,...org})}

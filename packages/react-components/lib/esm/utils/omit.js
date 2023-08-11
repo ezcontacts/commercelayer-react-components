@@ -1,0 +1,1 @@
+export default function omit(obj,keys){return Object.fromEntries(Object.entries(obj).filter(([k,_])=>!keys.includes(k)))}

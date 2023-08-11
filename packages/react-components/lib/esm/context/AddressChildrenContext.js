@@ -1,0 +1,1 @@
+import{createContext}from"react";const initial={address:void 0},AddressChildrenContext=createContext(initial);export default AddressChildrenContext;

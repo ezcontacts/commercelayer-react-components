@@ -1,7 +1,7 @@
 {
-  "name": "@commercelayer/react-components",
-  "version": "4.5.0-beta.3",
-  "description": "The Official Commerce Layer React Components",
+  "name": "@ezcontacts/react-components",
+  "version": "1.0.4",
+  "description": "Ezcontacts Fork of The Official Commerce Layer React Components",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "types": "lib/esm/index.d.ts",
@@ -166,17 +166,18 @@
     "ecommerce",
     "api",
     "react-components",
-    "commercelayer"
+    "commercelayer",
+    "ezcontacts"
   ],
   "author": {
-    "name": "Alessandro Casazza",
-    "email": "alessandro@commercelayer.io"
+    "name": "EzContacts",
+    "email": "davidg@ezcontacts.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/commercelayer/commercelayer-react-components/issues"
+    "url": "https://github.com/ezcontacts/commercelayer-react-components/issues"
   },
-  "homepage": "https://github.com/commercelayer/commercelayer-react-components#readme",
+  "homepage": "https://github.com/ezcontacts/commercelayer-react-components#readme",
   "dependencies": {
     "@ac-dev/countries-service": "^1.2.0",
     "@ac-dev/states-service": "^1.1.1",

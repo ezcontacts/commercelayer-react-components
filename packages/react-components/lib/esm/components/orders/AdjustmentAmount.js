@@ -1,0 +1,1 @@
+import{jsx as _jsx}from"react/jsx-runtime";import BaseOrderPrice from"../utils/BaseOrderPrice";export function AdjustmentAmount(props){return _jsx(BaseOrderPrice,{base:"amount",type:"adjustment",...props})}export default AdjustmentAmount;

@@ -1,0 +1,1 @@
+const getSkus=(skus,sortBy)=>{const obj={};return sortBy.forEach(sku=>{skus.forEach(o=>{o?.code===sku&&(obj[o.code]=o)})}),obj};export default getSkus;

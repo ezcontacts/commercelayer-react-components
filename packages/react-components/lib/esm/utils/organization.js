@@ -1,0 +1,1 @@
+import{getDomain}from"./getDomain";export default function getOrganizationSlug(endpoint){const org={organization:"",domain:"commercelayer.io"},{domain,slug}=getDomain(endpoint);return{organization:slug,domain:domain||org.domain}}

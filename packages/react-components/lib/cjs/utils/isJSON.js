@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});function isJSON(str){try{return JSON.parse(str),!0}catch{return!1}}exports.default=isJSON;

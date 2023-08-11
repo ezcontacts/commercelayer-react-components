@@ -1,0 +1,1 @@
+export function hasSubscriptions(order){return order?.line_items?.some(li=>li.frequency!=null)!=null}

@@ -1,0 +1,1 @@
+import{jsx as _jsx}from"react/jsx-runtime";import BaseInput from"./utils/BaseInput";export function MetadataInput(props){return _jsx(BaseInput,{"data-metadata":!0,...props})}export default MetadataInput;

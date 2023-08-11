@@ -1,0 +1,1 @@
+import{createContext}from"react";const initial={lineItemOption:{}},LineItemOptionChildrenContext=createContext(initial);export default LineItemOptionChildrenContext;

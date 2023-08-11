@@ -65,22 +65,38 @@ export function GiftCardOrCouponForm(props: Props): JSX.Element | null {
     e: React.FormEvent<HTMLFormElement>
   ): Promise<void> => {
     e.preventDefault()
-    const code = has(values, inputName) ? values[inputName].value : undefined
-    if (code != null && setGiftCardOrCouponCode != null) {
-      const { success, order } = await setGiftCardOrCouponCode({
-        code,
-        codeType
-      })
-      const value = values[inputName]?.value
-      if (onSubmit) {
-        onSubmit({
-          success,
-          value,
-          order
-        })
+     var code:string|undefined = has(values, inputName) ? values[inputName].value as string : undefined
+     const cleanCode = () => {
+      var trimmedOCode = code?.trim()
+
+      if(trimmedOCode === undefined) {
+        code = trimmedOCode
+        return;
       }
-      if (success) reset(e)
+
+      while(trimmedOCode?.length < 8){
+       trimmedOCode = trimmedOCode + " "
+      }
+      code = trimmedOCode.toUpperCase()
+      return 
+    } 
+    cleanCode()
+    if (!code || !setGiftCardOrCouponCode) return
+
+
+    const { success, order } = await setGiftCardOrCouponCode({
+      code,
+      codeType
+    })
+    const value = values[inputName]?.value
+    if (onSubmit) {
+      onSubmit({
+        success,
+        value,
+        order
+      })
     }
+    if (success) reset(e)
   }
   return (order?.gift_card_code && order?.coupon_code) ||
     isEmpty(order) ? null : (
