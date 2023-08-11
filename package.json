@@ -2,8 +2,8 @@
   "name": "root",
   "private": true,
   "author": {
-    "name": "Alessandro Casazza",
-    "email": "alessandro@commercelayer.io"
+    "name": "EzContacts",
+    "email": "davidg@ezcontacts.com"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
