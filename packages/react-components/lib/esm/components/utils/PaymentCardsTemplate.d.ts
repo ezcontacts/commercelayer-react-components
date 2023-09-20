@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type PaymentResource } from '../../reducers/PaymentMethodReducer';
 import PaymentSourceContext, { type IconBrand } from '../../context/PaymentSourceContext';
 import { type ChildrenFunction } from '../../typings/index';

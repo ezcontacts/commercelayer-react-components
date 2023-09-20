@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type LineItem } from '@commercelayer/sdk';
 import type { ChildrenFunction } from '../../typings/index';
 import { type TLineItem } from './LineItem';

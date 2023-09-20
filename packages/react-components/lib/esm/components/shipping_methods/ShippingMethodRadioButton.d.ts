@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import type { Order, ShippingMethod } from '@commercelayer/sdk';
 interface ShippingMethodRadioButtonType extends Omit<Props, 'children'> {
     shippingMethod: ShippingMethod;

@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type LoaderType } from '../../typings/index';
 import { type CustomerCardsTemplateChildren } from '../utils/PaymentCardsTemplate';
 export interface CustomerCardsProps {

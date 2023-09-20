@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type Shipment } from '@commercelayer/sdk';
 type ShipmentFieldChildrenProps = Omit<Props, 'children'> & {
     shipment: Shipment;

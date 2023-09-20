@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type BaseInputComponentProps } from '../../typings/index';
 import { type OrderCodeType } from '../../reducers/OrderReducer';
 type Props = {

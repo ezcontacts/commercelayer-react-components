@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type BaseAmountComponent, type BasePriceType } from '../../typings/index';
 type Props = BaseAmountComponent & {
     type?: BasePriceType;

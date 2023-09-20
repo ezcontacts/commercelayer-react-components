@@ -1,3 +1,4 @@
+/// <reference types="react" />
 export type TLineItem = 'gift_cards' | 'payment_methods' | 'promotions' | 'shipments' | 'skus' | 'bundles' | 'adjustments';
 interface Props {
     children: JSX.Element | JSX.Element[];

@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type BaseMetadataObject } from '../../typings/index';
 import type { OrderCreate, Order } from '@commercelayer/sdk';
 import type { DefaultChildrenType } from '../../typings/globals';

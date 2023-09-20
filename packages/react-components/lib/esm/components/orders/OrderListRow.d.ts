@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type TOrderList, type OrderListContent, type TableAccessor } from '../../context/OrderListChildrenContext';
 import { type Row } from '@tanstack/react-table';
 interface ChildrenProps extends Omit<Props, 'children'> {

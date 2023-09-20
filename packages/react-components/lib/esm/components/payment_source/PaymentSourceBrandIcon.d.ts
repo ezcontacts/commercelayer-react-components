@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type IconBrand } from '../../context/PaymentSourceContext';
 import { type ChildrenFunction } from '../../typings/index';
 interface ChildrenProps extends Omit<Props, 'children'> {

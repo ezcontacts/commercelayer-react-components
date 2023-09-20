@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type LoaderType } from '../../typings/index';
 interface Props {
     children: JSX.Element | JSX.Element[];

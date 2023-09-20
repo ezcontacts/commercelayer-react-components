@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type BaseAmountComponent } from '../../typings/index';
 interface Props extends BaseAmountComponent {
     type?: 'amount';

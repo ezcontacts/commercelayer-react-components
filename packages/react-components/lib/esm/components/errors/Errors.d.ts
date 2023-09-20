@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import type { CodeErrorType } from '../../typings/errors';
 import { type ChildrenFunction } from '../../typings/index';
 export type TResourceError = 'addresses' | 'billing_address' | 'gift_cards' | 'gift_card_or_coupon_code' | 'line_items' | 'orders' | 'payment_methods' | 'prices' | 'shipments' | 'shipping_address' | 'customer_address' | 'sku_options' | 'variant' | 'in_stock_subscriptions';

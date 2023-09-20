@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type ChildrenFunction } from '../../typings/index';
 interface Props extends Omit<JSX.IntrinsicElements['button'], 'children' | 'onClick'> {
     /**

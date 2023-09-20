@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import type { LoaderType } from '../../typings/index';
 import type { Order, PaymentMethod as PaymentMethodType } from '@commercelayer/sdk';
 import type { PaymentResource } from '../../reducers/PaymentMethodReducer';

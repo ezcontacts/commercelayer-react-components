@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type StripeElementLocale, type StripeElementsOptions, type StripePaymentElementOptions } from '@stripe/stripe-js';
 import { type PaymentMethodConfig } from '../../reducers/PaymentMethodReducer';
 import { type PaymentSourceProps } from './PaymentSource';

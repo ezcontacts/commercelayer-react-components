@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type ShippingMethod } from '@commercelayer/sdk';
 type ChildrenProps = Omit<Props, 'children'> & {
     label: string;

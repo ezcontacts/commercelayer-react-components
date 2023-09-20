@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import type { Address as AddressType } from '@commercelayer/sdk';
 import { type AddressCardsTemplateChildren } from '../utils/AddressCardsTemplate';
 import type { DefaultChildrenType } from '../../typings/globals';

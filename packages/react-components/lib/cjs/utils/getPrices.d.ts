@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type Price } from '@commercelayer/sdk';
 import { type PTemplateProps } from '../components/utils/PriceTemplate';
 export declare function getPriceByCode(skuPrices: Price[], code?: string): Price | undefined;

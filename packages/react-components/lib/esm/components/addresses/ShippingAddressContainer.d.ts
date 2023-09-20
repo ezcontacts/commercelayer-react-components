@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import type { DefaultChildrenType } from '../../typings/globals';
 interface Props {
     children: DefaultChildrenType;

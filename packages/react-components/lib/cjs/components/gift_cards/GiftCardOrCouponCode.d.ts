@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type ChildrenFunction } from '../../typings/index';
 import type { CodeType } from '../../reducers/OrderReducer';
 interface ChildrenProps extends Omit<Props, 'children'> {

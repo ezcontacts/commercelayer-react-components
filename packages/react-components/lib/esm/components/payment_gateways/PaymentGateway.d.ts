@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type LoaderType } from '../../typings/index';
 import { type PaymentSourceProps } from '../payment_source/PaymentSource';
 export type GatewayBaseType = Props & {

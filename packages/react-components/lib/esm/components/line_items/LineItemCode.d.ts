@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type LineItem } from '@commercelayer/sdk';
 import { type ChildrenFunction } from '../../typings/index';
 export interface TLineItemCode extends Omit<Props, 'children'> {

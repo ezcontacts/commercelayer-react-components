@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type TimeFormat, type ChildrenFunction } from '../../typings/index';
 import { type DeliveryLeadTime } from '../../reducers/AvailabilityReducer';
 interface AvailabilityTemplateChildrenProps extends Omit<Props, 'children'>, DeliveryLeadTime {

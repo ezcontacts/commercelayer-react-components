@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type BaseInputComponentProps } from '../../typings/index';
 type Props = {
     name?: 'customer_email' | string;

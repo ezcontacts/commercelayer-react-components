@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type TOrderList, type InitialOrderListContext, type OrderListContent } from '../../context/OrderListChildrenContext';
 import { type ColumnDef, type SortingState } from '@tanstack/react-table';
 import type { DefaultChildrenType, TRange } from '../../typings/globals';

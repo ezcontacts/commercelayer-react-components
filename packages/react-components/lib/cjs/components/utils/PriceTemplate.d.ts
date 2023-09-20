@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type PriceProps } from '../prices/Price';
 export type PTemplateProps = {
     formattedAmount?: string;

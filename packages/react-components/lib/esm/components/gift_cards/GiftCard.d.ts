@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type BaseState } from '../../typings/index';
 import type { DefaultChildrenType } from '../../typings/globals';
 interface Props extends Omit<JSX.IntrinsicElements['form'], 'children'> {

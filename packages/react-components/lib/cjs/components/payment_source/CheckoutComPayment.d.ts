@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type PaymentMethodConfig } from '../../reducers/PaymentMethodReducer';
 import { type PaymentSourceProps } from './PaymentSource';
 import { type FramesStyle } from 'frames-react';

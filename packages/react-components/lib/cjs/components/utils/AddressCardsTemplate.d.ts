@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import type { Address } from '@commercelayer/sdk';
 import AddressChildrenContext from '../../context/AddressChildrenContext';
 import { type ChildrenFunction } from '../../typings/index';

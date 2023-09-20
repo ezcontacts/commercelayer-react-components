@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type ConditionalElement } from '../../typings/index';
 import { type TGenericChildrenProps, type TResources } from '../utils/GenericFieldComponent';
 type LineItemFieldChildrenProps = TGenericChildrenProps<TResources['LineItem']>;

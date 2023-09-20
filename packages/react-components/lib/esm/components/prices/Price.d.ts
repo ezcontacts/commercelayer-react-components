@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type Price as PriceType } from '@commercelayer/sdk';
 import { type ChildrenFunction, type LoaderType } from '../../typings/index';
 interface PriceChildrenProps extends Omit<PriceProps, 'children'> {

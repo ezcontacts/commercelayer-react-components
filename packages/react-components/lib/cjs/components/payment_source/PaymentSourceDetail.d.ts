@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import type { ChildrenFunction } from '../../typings/index';
 export type PaymentSourceDetailType = 'last4' | 'exp_year' | 'exp_month';
 interface ChildrenProps extends Omit<Props, 'children'> {

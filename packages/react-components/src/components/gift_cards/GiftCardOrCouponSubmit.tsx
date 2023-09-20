@@ -19,7 +19,7 @@ export function GiftCardOrCouponSubmit(props: Props): JSX.Element {
     <Parent {...parentProps}>{children}</Parent>
   ) : (
     <button type='submit' {...p}>
-      {label}
+      Demo{label}
     </button>
   )
 }

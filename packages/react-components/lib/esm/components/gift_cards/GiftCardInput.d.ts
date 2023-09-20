@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type BaseInputComponentProps, type GiftCardInputName } from '../../typings/index';
 type Props = {
     name: GiftCardInputName;

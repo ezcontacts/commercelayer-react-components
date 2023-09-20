@@ -1,3 +1,4 @@
+/// <reference types="react" />
 export interface WireTransferConfig {
     infoMessage?: {
         text?: string | JSX.Element[];

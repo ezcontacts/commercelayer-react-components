@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type ChildrenFunction } from '../../typings/index';
 import type { StripeElementLocale } from '@stripe/stripe-js';
 import { type PaymentSourceProps } from './PaymentSource';

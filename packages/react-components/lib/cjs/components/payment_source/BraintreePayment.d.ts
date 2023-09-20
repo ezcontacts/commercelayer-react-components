@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type HostedFieldFieldOptions } from 'braintree-web/modules/hosted-fields';
 import { type PaymentSourceProps } from './PaymentSource';
 type BraintreeHostedFields<Type> = {

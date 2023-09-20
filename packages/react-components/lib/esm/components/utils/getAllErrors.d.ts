@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type LineItem } from '@commercelayer/sdk';
 import { type BaseError } from '../../typings/errors';
 import { type TResourceError } from '../errors/Errors';

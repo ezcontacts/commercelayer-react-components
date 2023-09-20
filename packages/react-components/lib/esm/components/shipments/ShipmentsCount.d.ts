@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type ChildrenFunction } from '../../typings/index';
 import type { Shipment } from '@commercelayer/sdk';
 interface ChildrenProps extends Omit<Props, 'children'> {

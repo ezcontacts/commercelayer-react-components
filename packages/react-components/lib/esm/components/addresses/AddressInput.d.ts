@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type BaseInputComponentProps, type AddressInputName } from '../../typings/index';
 import { type AddressValuesKeys } from '../../context/BillingAddressFormContext';
 type Props = {

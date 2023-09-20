@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type ChildrenFunction } from '../../typings/index';
 type TAsComponent = keyof Pick<JSX.IntrinsicElements, 'p' | 'span' | 'div'>;
 type ChildrenProps<A extends TAsComponent> = Omit<Props<A>, 'children'> & {

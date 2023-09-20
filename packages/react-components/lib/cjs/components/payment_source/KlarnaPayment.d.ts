@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type PaymentMethodConfig } from '../../reducers/PaymentMethodReducer';
 import { type PaymentSourceProps } from './PaymentSource';
 type KlarnaPaymentProps = PaymentMethodConfig['klarnaPayment'] & JSX.IntrinsicElements['div'] & Partial<PaymentSourceProps['templateCustomerSaveToWallet']> & {

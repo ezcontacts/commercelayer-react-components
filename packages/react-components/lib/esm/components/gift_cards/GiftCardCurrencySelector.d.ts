@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type BaseSelectComponentProps } from '../../typings/index';
 type Props = Omit<BaseSelectComponentProps, 'options' | 'name'> & {
     required?: boolean;

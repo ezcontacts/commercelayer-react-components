@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { type AddressStateSelectName, type BaseSelectComponentProps } from '../../typings/index';
 type Props = Omit<BaseSelectComponentProps, 'options' | 'name'> & {
     name: AddressStateSelectName;
