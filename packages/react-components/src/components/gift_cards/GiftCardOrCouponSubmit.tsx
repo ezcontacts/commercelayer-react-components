@@ -29,33 +29,6 @@ export function GiftCardOrCouponSubmit(props: Props): JSX.Element {
   else codeType = 'gift_card_code'
   const existingCode = order && codeType ? order[codeType] : ''
 
-  // const [codeType, setCodeType] = useState<OrderCodeType>('gift_card_or_coupon_code')
-//   const [existingCode, setExistingCode] = useState<string | null>(null)
-
-//   useEffect(() => {
-//     if (order?.gift_card_code && !order?.coupon_code) {
-//       setCodeType('coupon_code')
-//     }
-//     if (!order?.gift_card_code && order?.coupon_code) {
-//       setCodeType('gift_card_code')
-//     }
-//     if (!order?.gift_card_code && !order?.coupon_code) {
-//       setCodeType('gift_card_or_coupon_code')
-//     }
-//     console.log('order', order)
-//   }, [order])
-// ==
-//   useEffect(() => {
-//     console.log('neworder', order, 'codeType', codeType)
-//     if (order && codeType) {
-//       setExistingCode(order[codeType] || null)
-//     }
-//   }, [order, codeType])
-
-
-  console.log('outorder', order)
-
-  console.log('existingCode', existingCode)
 
   return children ? (
     <Parent {...parentProps}>{children}</Parent>
