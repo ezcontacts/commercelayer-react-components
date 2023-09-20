@@ -1,6 +1,6 @@
 {
   "name": "@ezcontacts/react-components",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Ezcontacts Fork of The Official Commerce Layer React Components",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
