@@ -68,7 +68,7 @@ export function ShippingMethodRadioButton(props: Props): JSX.Element {
       type='radio'
       name={name}
       id={id}
-      onChange={() => {
+      onClick={() => {
         void handleOnChange()
       }}
       checked={checked}
